@@ -1,0 +1,121 @@
+* {
+    font-family: Plus Jakarta Sans;
+}
+body {
+    margin: 60px;
+    padding: 40px;
+    background-color: #f9fafe;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: #ffffff;
+    width: 800px;
+    padding: 30px;
+    -moz-box-shadow: 0px 30px 30px #00000035;
+    -webkit-box-shadow: 0px 30px 30px #00000035;
+    box-shadow: 0px 30px 30px #00000035;
+}
+.container h2,button {
+    display: inline;
+    padding: 0px 20px;
+}
+.container button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #0e307a;
+    cursor: pointer;
+}
+#notifications{
+    margin: 30px 0px;
+}
+.list{
+    margin: 20px;
+}
+#markbtn {
+    float: right;
+}
+.notification {
+    margin: 10px 0px;
+    border-radius: .5rem;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.notification h3 {
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.notification img {
+    width: 60px;
+    padding: 10px;
+}
+#chess {
+    float: inline-end;
+    position: absolute;
+    right: 340px;
+}
+.notification p {
+    padding-left: 10px;
+    color: #363737;
+}
+.notification h4 {
+    color: #0e307a;
+    padding-left: 10px;
+}
+#message {
+    margin-left: 80px;
+    border: .5px solid #363737;
+    padding: 20px;
+    border-radius: .3rem;
+    color: #363737;
+}
+#message:hover {
+    cursor: pointer;
+    background-color: #e5eff9;
+    border: none;
+}
+#count {
+    background-color: #0e307a;
+    color: white;
+    padding: 5px 12px;
+    border-radius: .5rem;
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+.time {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 90px;
+    color: grey;
+    font-size: 15px;
+}
+#dot , #dot1, #dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #ff4546;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+}
+#active , #active1, #active2 {
+    background-color: #f6fafd ;
+}
+.name:hover {
+    color: #0e307a;
+    cursor: pointer;
+}
+b:hover {
+    cursor: pointer;
+    color: #0e307a;
+}
+h4 {
+    cursor: pointer;
+}
+img:hover {
+    cursor: pointer;
+}

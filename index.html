@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2 id="notifications" >Notifications</h2> <h2 id="count">3</h2>
+        <button id="markbtn" onclick="markRead()" >Mark all as read</button>
+        <div class="list">
+        <div class="notification" id="active">
+            <img src="avatar-mark-webber.webp" alt="">
+            <span class="time">1m ago</span>
+            <h3 class="name">Mark Webber</h3>
+            <p>reacted to your recent post <b>My first tournament today!</b></p>
+            <span id="dot"></span>
+        </div>
+        <div class="notification" id="active1">
+            <img src="avatar-angela-gray.webp" alt="">
+            <span class="time">5m ago</span>
+
+            <h3 class="name">Angela Gray</h3>
+            <p>followed you</p>
+            <span id="dot1"></span>
+        </div>
+        <div class="notification" id="active2">
+            <img src="avatar-jacob-thompson.webp" alt="">
+            <span class="time">1 days ago</span>
+            <h3 class="name">Jacob Thompson</h3>
+            <p>has joined your group <h4>Chess Club</h4></p>
+            <span id="dot2"></span>
+        </div>
+        <div class="notification">
+            <img src="avatar-rizky-hasanuddin.webp" alt="">
+            <span class="time">5 days ago</span>
+            <h3 class="name">Rizky Hasanuddln</h3>
+            <p>sent you a private message</p>
+        </div>
+        <p id="message">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, fugit? Fugit delectus enim impedit consequatur maiores tempore expedita atque incidunt.</p>
+        <div class="notification">
+            <img src="avatar-kimberly-smith.webp" alt="">
+            <span class="time">1 week ago</span>
+            <h3 class="name">Kimberly Smith</h3>
+            <p>commented on your picture</p>
+            <img id="chess" src="./image-chess.webp" alt="">
+        </div>
+        <div class="notification">
+            <img src="avatar-nathan-peterson.webp" alt="">
+            <span class="time">2 weeks ago</span>
+            <h3 class="name">Jon </h3>
+            <p>reacted to your recent post <b>5 end-game strategies to increase your win rate</b></p>
+        </div>
+        <div class="notification">
+            <img src="avatar-anna-kim.webp" alt="">
+            <span class="time">2 weeks ago</span>
+            <h3 class="name">Anna Kim</h3>
+            <p>left the group <h4> Chess Club</h4></p>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
